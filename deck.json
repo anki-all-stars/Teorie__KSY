@@ -1,0 +1,790 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "e904da02-67ea-11eb-90b6-38d5479d0148",
+    "deck_config_uuid": "51fd0716-67e9-11eb-a855-38d5479d0148",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "51fd0716-67e9-11eb-a855-38d5479d0148",
+            "currentValue": 120,
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxLife": 120,
+            "maxTaken": 60,
+            "name": "[Intense] English C1",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 50,
+                "separate": true
+            },
+            "recover": 5,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 50
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Ventrální_a_Dorzální_proud.png",
+        "paste-0c8d201d77158d5533f08fa76b967e873baedd09.jpg",
+        "paste-15fbec8c4192a7ced93e2891086f550f04981856.jpg",
+        "paste-295b2fee201c112dc383eaff5ad9da84b6ed7e90.jpg",
+        "paste-2d39c827eebd4156779755b2020a4f90172eca0e.jpg",
+        "paste-38e00f1c02b89c78b814e97be735685fe2d5f29d.jpg",
+        "paste-3e0532b0eaac9487385e20fac21a16fc69d184ad.jpg",
+        "paste-602c3be7fe5a261c40b11d138a712270cf50d255.jpg",
+        "paste-67b00810d3435fb54fe8bc50c213be83cf55f2a5.jpg",
+        "paste-6b465c1dc341604d2ce2cb1d23f7e13ea3e65c84.jpg",
+        "paste-759c650ef96453a7c7c1f020586454da7f7bd7bd.jpg",
+        "paste-8de0f8db36194a9b1dd792d5d216b9f7ba19e357.jpg",
+        "paste-93e768e5f6b70b259eca752247b19a6572acc9c9.jpg",
+        "paste-9616941443519c422fdc8ebee08a860399509056.jpg",
+        "paste-964ca13062a008f2e1f3a1c3258bc945bfc45be9.jpg",
+        "paste-a88c95c0fb3add33d77a36054844aa4f65b71e09.jpg",
+        "paste-b9b8df422d383094b976eaeee1d9b00f64dc049c.jpg",
+        "paste-cfcc473f4a6de13fb14ff07a1f2534c0ddff5ae8.jpg",
+        "paste-eff0c833db5b21204d71a0468250e9cc97d5f6cb.jpg",
+        "paste-f4a72229ec683b43ff044caad44204b52754cf24.jpg",
+        "paste-f4ee3f5ec75179affd130f83c3319f29073caca8.jpg",
+        "paste-fb53196178faf70898e818c67b52346d22147ea6.jpg",
+        "paste-fb92548b31a6109fca4029d4cb6116da063e5b8f.jpg"
+    ],
+    "name": "Teorie::KSY",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n color: black;\n text-align: center;\n background-color: white;\n}\n\n.solution {\n text-align: left;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Question",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Solution",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Math",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{Question}}\n\n<hr id=answer>\n\n<div style=\"text-align: center;\">\n    <div style=\"display: inline-block; text-align: left;\">\n\t\t{{Solution}}\n    </div>\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Question}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Psychologické směry a jejich popis",
+                "Kognitivní psychologie - Centrem zájmu je vnímání, zapamatování, myšlení a rozhodování<br><br><div>Behaviorismus - Zdůrazňovali studim pozorovatelného chování , tzn. Jak organismus reaguje na stimuly z prostředí (pavlovy pokusy na psech)<br><div><br></div></div><div>Kognitivismus -&nbsp;<span style=\"color: var(--text-fg);\">musíme pochopit myšlenkové </span><span style=\"color: var(--text-fg);\">procesy, abychom pochopili naše chováni. Nikoliv </span><span style=\"color: var(--text-fg);\">naopak, jak tvrdili behavioristé</span></div><div><span style=\"color: var(--text-fg);\"><br></span></div><div>Kognitivní neuropsychologie -&nbsp;<span style=\"color: var(--text-fg);\">Zkoumá kognitivní funkce u lidí, kteří trpí </span><span style=\"color: var(--text-fg);\">poškozením mozku</span></div>"
+            ],
+            "guid": "i7||/32Ah8",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-01"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Psychologické metody",
+                "<div><span style=\"color: var(--text-fg);\">Pozorování</span><br></div><div><div><span style=\"color: var(--text-fg);\">Rozhovor</span></div></div><div><div>Experiment</div></div><div><div><span style=\"color: var(--text-fg);\">Dotazník</span></div></div>Introspekce<div><span style=\"color: var(--text-fg);\">Analýza produktů</span><br></div><div><span style=\"color: var(--text-fg);\">Longitudinální výzkum</span></div><div><span style=\"color: var(--text-fg);\">Kazuistika</span></div>"
+            ],
+            "guid": "tVqxCP}g!g",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-02"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je závislá proměnná",
+                "- Reakční čas<div>- Analýza přesnosti a efektivity</div><div><br></div><div>V experimentech dochází<span style=\"color: var(--text-fg);\">&nbsp;k obměňování \npodmínek (nezávislá proměnná), aby experimentátor zjistil, zda na ní \nzávislá proměnná vykazuje systematickou změnu.</span></div>"
+            ],
+            "guid": "L2O5c.N_7O",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Metody kognitivní neurovědy (6)",
+                "<div>- Single Unit Recording Event Related Potentials (ERPs)</div>\n<div>- Spectral analysis (EEG)</div>\n<div>- Positron Emission Tomography (PET)</div>\n<div>- (Functional) Magnetic Resonance Imaging (fMRI, MRI)</div>\n<div>- Magneto-encephalography (MEG)</div>\n<div>- Transcranial magnetic stimulation (TMS)</div>"
+            ],
+            "guid": "AtMqtNT$Qn",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je kognitivní psychologie a jak se vyvinula?",
+                "<div>Kognice = aktivity a procesy týkající se akvizice, ukládání, vybavování a zpracování znalosti<br></div><div><br></div>Vědecká disciplína zabývající se činnosti mysli.<div>Centrem zájmu je vnímání, zapamatování, myšlení a rozhodování.</div><div><br></div><div>Mysl je systém pro přijímání, uchovávání a používání znalostí o světě<br></div><div><br></div><div>Jeho <b>vznik</b> byl podmíněný teoretickou redukcí poznávacích procesů na procesy zpracovávající informace<br></div>"
+            ],
+            "guid": "F+xCz{rLm",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to priming",
+                "<b>Priming</b>&nbsp;označuje&nbsp;<a href=\"https://cs.wikipedia.org/w/index.php?title=Kognitivn%C3%AD&amp;action=edit&amp;redlink=1\">kognitivní</a>&nbsp;proces, při kterém podnět z dřívějška ovlivňuje pozdější&nbsp;<a href=\"https://cs.wikipedia.org/wiki/Chov%C3%A1n%C3%AD\">chování</a>&nbsp;a&nbsp;<a href=\"https://cs.wikipedia.org/wiki/My%C5%A1len%C3%AD\">myšlení</a>&nbsp;jedince, například to, jak později vnímá podobný podnět. Jedná se o příklad automatického uvažování a v&nbsp;<a href=\"https://cs.wikipedia.org/wiki/Mysli\">mysli</a>&nbsp;člověka k němu dochází neúmyslně a bezděčně.<div><br></div><div><img src=\"paste-fb53196178faf70898e818c67b52346d22147ea6.jpg\"><br></div>"
+            ],
+            "guid": "ukxJw~w|Pf",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je tip of tongue",
+                "<div><b>Tip of tongue&nbsp;</b>je <a href=\"https://cs.wikipedia.org/wiki/Psychologie\">psychologický</a> termín převzatý z <a href=\"https://cs.wikipedia.org/wiki/Francouz%C5%A1tina\">francouzštiny</a> (kde znamená <i>téměř viděno</i>). Popisuje stav neschopnosti vybavit si nějaké slovo, kombinovaný s pocitem blízkosti hledaného slova.\n</div><div>Lidé prožívající presque vu si obvykle dokáží vzpomenout na \nněkolik vlastnostní objektu hledání jako je první písmeno, jeho důraz či\n blízká slova s podobným významem. <sup><a href=\"https://cs.wikipedia.org/wiki/Presque_vu#cite_note-Brown_McNeill_1966-1\">[1]</a></sup></div><div><br></div><div><img src=\"paste-f4ee3f5ec75179affd130f83c3319f29073caca8.jpg\"><br></div>"
+            ],
+            "guid": "hQts.MJQs7",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-07"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to habituace a dishabituace?",
+                "<b>Habituace</b> je tendence přivyknout si na podnět a dále již ho \nnevnímat. Habituaci můžeme ovlivnit naší vůlí. Učíme se nereagovat na \npodněty. Opakem je dishabituace."
+            ],
+            "guid": "f;i]IB1{O{",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-08"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to detekce signálů?",
+                "<div><img src=\"paste-759c650ef96453a7c7c1f020586454da7f7bd7bd.jpg\"><br></div><img src=\"paste-eff0c833db5b21204d71a0468250e9cc97d5f6cb.jpg\"><div><img src=\"paste-fb92548b31a6109fca4029d4cb6116da063e5b8f.jpg\"><br></div>"
+            ],
+            "guid": "kixt@JW=ev",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-09"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je selektivní pozornost?",
+                "<img src=\"paste-b9b8df422d383094b976eaeee1d9b00f64dc049c.jpg\">"
+            ],
+            "guid": "fRA#$DHGKz",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je rozdělená pozornost?",
+                "<img src=\"paste-602c3be7fe5a261c40b11d138a712270cf50d255.jpg\">"
+            ],
+            "guid": "jAp5D&fgX[",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-11"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to vědomí a jeho biologické koreláty?",
+                "Vědomí=funkce mozku=stav (pozornosti, soustředěnosti) bdělosti<div><br></div><div><img src=\"paste-15fbec8c4192a7ced93e2891086f550f04981856.jpg\"><br></div>"
+            ],
+            "guid": "GWPQpA`Yu#",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Specializace hemisfér?",
+                "<img src=\"paste-38e00f1c02b89c78b814e97be735685fe2d5f29d.jpg\">"
+            ],
+            "guid": "t&wg5`|FAj",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-13"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je pozornost?",
+                "<img src=\"paste-0c8d201d77158d5533f08fa76b967e873baedd09.jpg\">"
+            ],
+            "guid": "N-3$-j.t%y",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-14"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je vědomá pozornost?",
+                "<img src=\"paste-9616941443519c422fdc8ebee08a860399509056.jpg\">"
+            ],
+            "guid": "P-ugwS|IX6",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-15"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Teorie detekce signálů?",
+                "<img src=\"paste-93e768e5f6b70b259eca752247b19a6572acc9c9.jpg\">"
+            ],
+            "guid": "Nh1.iw5T=3",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-16"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Typy vyhledávání",
+                "do šířky, do hloubky"
+            ],
+            "guid": "HN+asQ~5eE",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-17"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je Broadbantova teorie filtru?",
+                "<b>teorie filtru - D. <a href=\"https://wikisofia.cz/w/index.php?title=Donald_Broadbent&amp;action=edit&amp;redlink=1\">Broadbent</a></b> - podle něj filtr působí již v receptoru, omezenost kapacity senzorického kanálu (= časná selekce)<div><br></div><div><img src=\"paste-295b2fee201c112dc383eaff5ad9da84b6ed7e90.jpg\"><br></div>"
+            ],
+            "guid": "yA7^y%ts$^",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-18"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to Stroopův efekt?",
+                "<b>Stroopův test</b> je <a href=\"https://cs.wikipedia.org/wiki/Psychologie\">psychologický</a> test, dokládající, že člověk je při vykonávání nějakého úkolu snadno rozptýlen svými automatickými reakcemi a návyky."
+            ],
+            "guid": "r;f_eX(E=U",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-19"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Druhy očních pohybů",
+                "Volní pohyby - Podnět pro stah okohybných svalů zřejmě vzniká v zadní části <a href=\"https://cs.wikipedia.org/w/index.php?title=Pariet%C3%A1ln%C3%AD_lalok&amp;action=edit&amp;redlink=1\">parietální</a> <a href=\"https://cs.wikipedia.org/wiki/Mozkov%C3%A1_k%C5%AFra\">mozkové kůry</a>.<div>Nevolní pohyby -&nbsp;Celá řada očních pohybů vzniká samovolně, nezávisle na vůli jedince, např. zaostření</div>"
+            ],
+            "guid": "v==Axt(w=c",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-20"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co jsou to sakády?",
+                "<a href=\"https://cs.wikipedia.org/wiki/Sak%C3%A1dy\">Sakadické pohyby</a> (sakády) – velmi rychlé pohyby, které umožňují nasměrování oka tak, aby se vnímání objektu stalo co nejostřejším"
+            ],
+            "guid": "E`<g{Cw!kg",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "otazka-21"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co jsou agnosie a které znáš?",
+                "<div><div><div><b style=\"color: var(--text-fg);\">Agnosia</b><span style=\"color: var(--text-fg);\"> is the inability to process sensory information. \nOften there is a loss of ability to recognize objects, persons, sounds, \nshapes, or smells while the specific sense is not defective nor is there\n any significant memory loss.</span></div></div></div>"
+            ],
+            "guid": "uHX6yFpfQQ",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dorzální a ventrální způsob zpracování",
+                "<img src=\"Ventrální_a_Dorzální_proud.png\"><div><a href=\"https://cs.wikipedia.org/w/index.php?title=Dors%C3%A1ln%C3%AD_proud&amp;action=edit&amp;redlink=1\">Dorsální proud</a><span style=\"color: var(--text-fg);\">&nbsp;</span><span style=\"color: var(--text-fg);\">(horní, zelená část obrázku)</span></div><div><a href=\"https://cs.wikipedia.org/w/index.php?title=Ventr%C3%A1ln%C3%AD_proud&amp;action=edit&amp;redlink=1\">Ventrální proud</a>&nbsp;(dolní, fialová část obrázku)&nbsp;</div><div><span style=\"color: var(--text-fg);\"><br></span></div><div>-&nbsp;<a href=\"https://cs.wikipedia.org/w/index.php?title=Dors%C3%A1ln%C3%AD_proud&amp;action=edit&amp;redlink=1\">Dorsální proud</a><span style=\"color: var(--text-fg);\">&nbsp;</span><span style=\"color: var(--text-fg);\">hraje roli ve zpracování zrakových informací o prostoru, jako je například umístění předmětu (kde?)</span></div><div><span style=\"color: var(--text-fg);\">-&nbsp;</span><a href=\"https://cs.wikipedia.org/w/index.php?title=Ventr%C3%A1ln%C3%AD_proud&amp;action=edit&amp;redlink=1\">Ventrální proud</a><span style=\"color: var(--text-fg);\">&nbsp;zodpovídá za zpracování informací, které vedou k zrakové identifikaci objektu</span></div>"
+            ],
+            "guid": "Q%B`R)GHJ1",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je gestalt psychologie?",
+                "Gestalt = uspořádání / forma<div>Nesouhlasná reakce na strukturalismus<br></div><div><span style=\"color: var(--text-fg);\"><br></span></div><div><span style=\"color: var(--text-fg);\">Tvrdí: vjem jako stavba poskládaná </span><span style=\"color: var(--text-fg);\">z elementárních stavebních </span><span style=\"color: var(--text-fg);\">prvků</span><br></div>"
+            ],
+            "guid": "M]9]q409O-",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké jsou gestalt principy?",
+                "<ul><li><b>1. Zákon blízkosti</b> – tendence vnímat podobné objekty jako skupiny nebo série</li>\n<li><b>2. Zákon podobnosti</b> – smíšené skupiny podobných a odlišných objektů vidíme po skupinách</li>\n<li><b>3. Zákon pokračování/směru</b> – v obrazcích hledáme čáry s nepřerušeným pokračováním</li>\n<li><b><br></b></li><li><b>4. Zákon výstižnosti</b> (Prägnanz) – tendence vidět nejjednodušší tvar</li>\n<li><b>5. Zákon dobrého tvaru</b> – tendence doplňovat obrazce</li>\n<li><b>6. Vnímání figury a pozadí</b> – schopnost mysli zaměřit pozornost na smysluplný tvar a ignorovat zbytek</li><li><br></li>\n<li><b>7. Konstantnost velikosti</b> – schopnost vnímání perspektivy</li></ul>"
+            ],
+            "guid": "t0pS/~cs|h",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to figura a pozadí?",
+                "Figura je bod zájmu v obrazovém vjemu. Pozadí je nedůležitá součást, něco prostě v pozadí. Existuje rozdíl v jejich procesování<div><br></div><div><div><img src=\"paste-3e0532b0eaac9487385e20fac21a16fc69d184ad.jpg\"><br></div></div>"
+            ],
+            "guid": "m}G9j*DNuI",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Teorie integrace vlastnosti",
+                "<h3>Teorie integrace rysů Treismanové<sup><a href=\"https://wikisofia.cz/wiki/Pozornost,_jej%C3%AD_druhy_a_vlastnosti#cite_note-19\">[19]</a></sup></h3>\n<div>Tato teorie rozlišuje mezi <b>rysy objektů</b> (např. barva, velikost) a <b>samotnými objekty</b>. Podle Treismanové jsou nejprve všechny vizuální rysy objektů zpracovány současně, ale nezávisle na sobě během <b>paralelního zpracování</b> (toto stadium nezávisí na pozornosti). Následuje pomalejší <b>sériové zpracování</b>,\n kdy je z jednotlivých rysů vytvořen objekt. Zaměřená pozornost \nkombinuje rysy v zorném poli a vytváří z nich objekt (funguje jako \njakési lepidlo). Vliv má také minulá zkušenost (např. objekty ve tvaru \nbanánu bývají žluté). Pokud je zaměření pozornosti nedostatečné nebo \nchybějí relevantní znalosti, může dojít k <b>iluzornímu spojení</b>, kdy iluze vznikne spojením rysů různých objektů.<sup><a href=\"https://wikisofia.cz/wiki/Pozornost,_jej%C3%AD_druhy_a_vlastnosti#cite_note-:1-4\">[4]</a></sup></div>"
+            ],
+            "guid": "P^8T>8x5=q",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Marruv model vidění",
+                "Zpracovávání vidění probíhá v následujících fázích<div><br></div><div><img src=\"paste-67b00810d3435fb54fe8bc50c213be83cf55f2a5.jpg\"><br></div>"
+            ],
+            "guid": "nn4.d$)K//",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rozpoznání prostřednictvím komponent",
+                "<img src=\"paste-2d39c827eebd4156779755b2020a4f90172eca0e.jpg\">"
+            ],
+            "guid": "r<Y]Z!q~ZU",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neurální koreláty paměťového zpracování",
+                "IDKWTF"
+            ],
+            "guid": "HAl5DtgJ26",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Anterográdní a retrográdní amnezie",
+                "<pre>retrogradni amnezie: ztráta paměti vztahující se na časový úsek před úrazem hlavy, otřesem mozku, komatem</pre><pre>anterogradni amnezie: jedná se o neschopnost vštípit si do paměti jakékoliv nové informace a zážitky po spouštěcím stimulu</pre>"
+            ],
+            "guid": "JTzIKsud2(",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fáze paměti",
+                "Sensorická<div>&nbsp;- Echoická</div><div>&nbsp;- Ikonická</div><div>&nbsp;- Další modality</div><div>Krátkodobá pamět = pracovní pamět</div><div>Dlouhodobá pamět</div><div>&nbsp;- Explicitní: episodická(události, zkuš), sémantická(fakta, koncepty)<br></div><div>&nbsp;- Implicitní: priming, procedurální, asociační učení, neasociační učení</div>"
+            ],
+            "guid": "gFwuNj+?@B",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Křivka zapomínání",
+                "<img src=\"paste-a88c95c0fb3add33d77a36054844aa4f65b71e09.jpg\">"
+            ],
+            "guid": "N0>5pPss+w",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš teorii úrovně zpracování",
+                "<img src=\"paste-964ca13062a008f2e1f3a1c3258bc945bfc45be9.jpg\"><div><img src=\"paste-8de0f8db36194a9b1dd792d5d216b9f7ba19e357.jpg\"><br><div><br></div></div>"
+            ],
+            "guid": "jC:hF%o:jQ",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je pracovní pamět",
+                "= středodobá funkce"
+            ],
+            "guid": "gEX+eK)Y,j",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Záblesková paměť",
+                "Vyzkumníci zjistili, že pokud jsou události překvapivé a vybudí úroveň arousalu, vzpomínky jsou uchovány mnohem detailněji"
+            ],
+            "guid": "x>T3YJ@O#%",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Učení závislé na situaci",
+                "Fakty naučené v určité situaci se lépe vybavují v podobné situaci"
+            ],
+            "guid": "vVtEGBOAH*",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je vliv očitého svědectví?",
+                "Sugestivní otázky mohou změnit posouzení<div>Otázky mění celkový pohled lidí na situaci<br></div>"
+            ],
+            "guid": "jF;XHqUVt}",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pro jakou činnost je důležitý hippocampus",
+                "hraje velkou roli při krátkodobém uchovávání informací a při prostorové orientaci<div>Lidé se značným poškozením hipokampu trpí poškozením <a href=\"https://cs.wikipedia.org/wiki/Pam%C4%9B%C5%A5\">paměti</a> a neschopností ukládat nové informace<br></div>"
+            ],
+            "guid": "vZC{r+W+c/",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Informaci z jaké paže, z jakého oka a ucha zpracovává pravá hemisféra?",
+                "Z levé paže, levého oka a levého ucha"
+            ],
+            "guid": "dQc#Eu]&_e",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Z jakých částí je tvořen neuron",
+                "<img src=\"paste-f4a72229ec683b43ff044caad44204b52754cf24.jpg\">"
+            ],
+            "guid": "<iu|$*Uz?",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš problem symbol grounding (ukotvení symbolů)",
+                "<b>Problém ukotvení symbolů</b> se týká otázky, kde slova (znaky, <b><a href=\"https://cs.wikipedia.org/wiki/Symbol\">symboly</a></b>) berou svůj význam a co tento význam vlastně je. Např. problém čínského pokoje"
+            ],
+            "guid": "lEZ_4j!89F",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš Sapirovo-Whorfovu hypotézu",
+                "<b>Sapirova–Whorfova hypotéza</b> je <a href=\"https://cs.wikipedia.org/wiki/Lingvistika\">lingvisticko</a>-<a href=\"https://cs.wikipedia.org/wiki/Antropologie\">antropologická</a> teze, podle níž je pojetí reálného světa vystavěno na <a href=\"https://cs.wikipedia.org/wiki/Jazyk_(lingvistika)\">jazykových</a> zvyklostech konkrétní dané <a href=\"https://cs.wikipedia.org/wiki/Komunita\">komunity</a>, jež pak předurčují určitý výběr <a href=\"https://cs.wikipedia.org/wiki/Interpretace\">interpretace</a> <a href=\"https://cs.wikipedia.org/wiki/Skute%C4%8Dnost\">reality</a>. Byla jednou z historicky významných teorií <a href=\"https://cs.wikipedia.org/wiki/Psycholingvistika\">psycholingvistiky</a>."
+            ],
+            "guid": "Jrx6/q?>`U",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš garden path model",
+                "The <strong>garden path model</strong> of sentence processing itself was\n proposed by Frazier and Fodor in 1978 (Christianson et al. 2001).  The \ngarden path model of sentence processing suggests that, when \nencountering ambiguous sentences, only one meaning is initially \nprocessed.  Then, upon reaching the end of, or a key point within, the \nsentence, if the meaning ascribed does not work the sentence is reparsed\n until a satisfactory meaning can be ascribed."
+            ],
+            "guid": "f{>g_Ei(mF",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to předvědomá pozornost",
+                "Zpracovávání informací které neprobíá vědomě"
+            ],
+            "guid": "O{P:ASIHNg",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je afázie a jaké druhy znáš",
+                "<li><b>Brocova</b> (expresivní, motorická) <b>afázie</b> - chápání zachované, řeč není plynulá, bez opakování</li>\n<li><b>Wernickeho</b> (percepční, senzorická) <b>afázie</b> - špatné chápání, řeč plynulá, ale postrádá smysluplnost (jelikož nemůže být vnitřně kontrolována), bez opakování</li><li><br></li><li><img src=\"paste-6b465c1dc341604d2ce2cb1d23f7e13ea3e65c84.jpg\"><br></li>"
+            ],
+            "guid": "z]i8!3NR^j",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rozdíl mezi koncepty kategoriemi a schématy",
+                "Rozdíl mezi konceptem a kategorií spočívá v tom, že koncept je ve vztahu\n ke konkrétnímu jevu v textu méně obecný než kategorie. Více konceptů se\n tedy dá sloučit pod jednu kategorii. (např. více pracovních činností \nmůže spadat do kategorie denní řád) Výsledkem otevřeného kódování je \nseznam konceptů a kategorií, které nám dávají přehled o tématech v textu<br><br>IDK NOT cORRECT ^"
+            ],
+            "guid": "leXv_z6%z)",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to vhled",
+                "Vhledem či <a href=\"https://cs.wikipedia.org/wiki/Intuice\">intuicí</a>\n se rozumí poznání na základě vnuknutí, protiklad postupného poznávání \npomocí úsudkového myšlení. Pojem intuice nahrazuje moderní psychologie \noznačením vhled. Vhled (anglicky <i>insight</i>, německy <i>Einsicht</i>) je náhlé, nečekané a bezprostřední vyřešení problému, zdánlivě bez předchozího přemýšlení"
+            ],
+            "guid": "N]7e0x6(=o",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co znamená slovo cognoscere",
+                "Vědět/ poznávat"
+            ],
+            "guid": "zBl/W{Q0Xe",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co to je kognice",
+                "aktivity a procesy týkající se akvizice, ukládání, vybavování a zpracování znalosti"
+            ],
+            "guid": "L,xTKE(Z&Q",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vyjmenuj nejake dulezity lidi ve vyzkumu mozku",
+                "Descartes – dualismus, Willis – termíny “hemisféra”, “lalok”"
+            ],
+            "guid": "MYU*nq{29j",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to závislá proměnná",
+                "Např. Reakční čas či přesnost/věk či pohlaví"
+            ],
+            "guid": "C=7Prz?E6(",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaká je historie kognitivní psychologie",
+                "<b>Filozofické základy</b> kognitivní psychologie tvoří skloubení <b>racionalismu</b> a <b>empirismu</b>, tedy využívání empirických metod na základě teoretických úvah a jejich zpětná revize."
+            ],
+            "guid": "yGquaVo^*0",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je vědomí pt2",
+                "Stav pozornosti, soustředěnosti, bdělosti"
+            ],
+            "guid": "bkQix44wG9",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je detekce signálu",
+                "Detekce signálu – schopnost člověka vyhledat v opakující se stimulaci přítomnost signálu -pasivní čekání na signál (kdy ručička poskočí 2x)"
+            ],
+            "guid": "CK]#&sq$]^",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš teorii integrace vlastností",
+                "<img src=\"paste-cfcc473f4a6de13fb14ff07a1f2534c0ddff5ae8.jpg\">"
+            ],
+            "guid": "x*L*$D}<sY",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je procedurání pamět",
+                "Uchovává si zvyky, implicitní dlouhodobá pamět"
+            ],
+            "guid": "QoH2uB*fR2",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to sémantická pamět",
+                "Uchovává si fakty, koncepty atd, deklarativní dlouhodobá"
+            ],
+            "guid": "Q,~RqHb*Ch",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak velká je krátkodobá pamět",
+                "7 +-2 chunků"
+            ],
+            "guid": "v`R94cgJJ%",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "K čemu slouží krátkodobá pamět",
+                "Můstek mezi sensorickou a dlouhodobou"
+            ],
+            "guid": "N[`Z?8K~wU",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        }
+    ]
+}
